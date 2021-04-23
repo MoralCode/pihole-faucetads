@@ -4,19 +4,15 @@ import pathlib
 
 csv_filename = "domains.csv"
 
-list_names = ["beta", "main","borked"]
+list_names = ["faucet"]
 
 lists = {
-	"beta": [],
-	"main": [],
-	"borked": []
+	"faucet": []
 }
 
 
 output_filenames = {
-	"beta": "telemetry-domains_beta.txt",
-	"main": "telemetry-domains.txt",
-	"borked": "telemetry-domains_borked.txt"
+	"faucet": "faucet-ads.txt"
 }
 
 autogen_notice = [
@@ -73,9 +69,7 @@ def regenerate_list(list_name):
 
 
 populate_lists()
-regenerate_list("beta")
-regenerate_list("main")
-regenerate_list("borked")
+regenerate_list("faucet")
 
 
 print("Done.")
