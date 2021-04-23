@@ -3,3 +3,14 @@
 # Please refer to the UPDATING.md file for instructions on how to make changes to these blocklists
 # Any edits directly to this file will be overwritten
 #
+a-ads.com
+bitmedia.io
+bitvertize.net
+bmcdn1.com
+cointraffic.io
+coinzilla.com
+coinzilla.io
+coinzillatag.com
+cryptocoinsad.com
+czilladx.com
+mellowads.com
